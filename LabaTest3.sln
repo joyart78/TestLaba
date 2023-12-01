@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabaTest3", "LabaTest3\LabaTest3.csproj", "{2E5C1033-CC28-4347-9DCD-0442FB15B285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTest", "NUnitTest\NUnitTest.csproj", "{72DED1CC-9681-4CF6-A2D6-B336354D1553}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5C1033-CC28-4347-9DCD-0442FB15B285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5C1033-CC28-4347-9DCD-0442FB15B285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5C1033-CC28-4347-9DCD-0442FB15B285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5C1033-CC28-4347-9DCD-0442FB15B285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DED1CC-9681-4CF6-A2D6-B336354D1553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DED1CC-9681-4CF6-A2D6-B336354D1553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DED1CC-9681-4CF6-A2D6-B336354D1553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DED1CC-9681-4CF6-A2D6-B336354D1553}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12BDC7D1-0DD1-4142-AF76-DB740118917E}
+	EndGlobalSection
+EndGlobal
