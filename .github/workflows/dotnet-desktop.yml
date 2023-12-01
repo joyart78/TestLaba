@@ -19,8 +19,11 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
 
-    - name: Build
-      run: dotnet build --no-restore --configuration Release
+    - name: Build LabaTest3 project
+      run: dotnet build --no-restore --configuration Release ./LabaTest3/LabaTest3.csproj
+
+    - name: Build NUnitTest project
+      run: dotnet build --no-restore --configuration Release ./NUnitTest/NUnitTest.csproj
 
     - name: Test
       run: dotnet test --no-build --verbosity normal --logger trx --results-directory ./TestResults ./LabaTest3/LabaTest3.csproj ./NUnitTest/NUnitTest.csproj
